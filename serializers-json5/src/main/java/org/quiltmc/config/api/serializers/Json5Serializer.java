@@ -23,6 +23,9 @@ import org.quiltmc.parsers.json.JsonWriter;
 
 import java.io.*;
 
+/**
+ * A default serializer that writes in the <a href="https://json5.org/">JSON5 format</a>.
+ */
 public final class Json5Serializer extends AbstractJsonSerializer implements Serializer {
 	public static final Json5Serializer INSTANCE = new Json5Serializer();
 

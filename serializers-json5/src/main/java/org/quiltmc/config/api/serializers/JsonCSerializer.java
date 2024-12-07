@@ -24,6 +24,9 @@ import org.quiltmc.parsers.json.JsonWriter;
 
 import java.io.*;
 
+/**
+ * A default serializer that writes in the <a href="https://code.visualstudio.com/docs/languages/json#_json-with-comments">JSON with Comments format</a>.
+ */
 public final class JsonCSerializer extends AbstractJsonSerializer implements Serializer {
 	public static final JsonCSerializer INSTANCE = new JsonCSerializer();
 

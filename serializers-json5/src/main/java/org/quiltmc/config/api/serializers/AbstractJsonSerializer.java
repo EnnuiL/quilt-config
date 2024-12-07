@@ -34,7 +34,7 @@ import java.math.BigInteger;
 import java.util.*;
 
 /**
- * A default serializer that writes in the <a href="https://json5.org/">JSON5 format</a>.
+ * An abstract serializer that uses Quilt Parsers' JSON library in order to support JSON-like formats.
  */
 public class AbstractJsonSerializer {
 	private void serialize(JsonWriter writer, Object value) throws IOException {
